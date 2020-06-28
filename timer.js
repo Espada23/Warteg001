@@ -17,12 +17,12 @@ function start() {
         inc();
         document.getElementById('start').value = "Pause";
         document.getElementById('start').style.backgroundColor = "red";
-        document.getElementById('start').style.borderColor = "red";
+        document.getElementById('start').style.borderColor = "black";
     }else{
         status = 0;
         document.getElementById('start').value = "Resume";
         document.getElementById('start').style.backgroundColor = "green";
-        document.getElementById('start').style.borderColor = "green";
+        document.getElementById('start').style.borderColor = "black";
     }
 }
 
@@ -44,4 +44,3 @@ function inc(){
         },1000)
     }
 }
-
